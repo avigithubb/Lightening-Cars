@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- meta tag is generally used to render the wepage on different systems with different size of display, and language -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Description part is importent because it describes our link text which user reads and clicks -->
         <meta description="Rent a car and get to the destanation faster with Lightening Cars">
+        <!-- The title picked up from Ligtening maqueen -->
         <title>Lightening Cars</title>
+        <!-- Linking the stylesheet is an essential part of the  -->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!-- A header tag used as a navigation to the page -->
         <header>
             <img src="https://freepngimg.com/thumb/lamborghini/1-2-lamborghini-png.png" width="20%" class="rental-logo">
             <h4>Lightening Cars</h4>
@@ -19,15 +24,20 @@
                 </ul>
             </nav>
         </header>
+        <!-- A division tag to saparate different kinds of content in a common area -->
         <div class="container">
             <div class="content">
+                <!-- A heading tag is used to give heading. They are of six types -->
                 <h1>Car Rental Service</h1>
                 <div class="myform">
+                    <!-- A form tag defines that the content is of form type -->
                     <form action="#" method="post">
                         <h3>Rent a car</h3>
-                        <label for="name"><input type="text" id="name" placeholder="Your Name"></label>
-                        <label for="email"><input type="email" id="email" placeholder="Email"></label>
-                        <label for="num"><input type="number" id="num" placeholder="Number"></label>
+                        <!-- An input tag is used to take some certain different kinds of input -->
+                        <label for="name"><input type="text" id="name" placeholder="Your Name" required></label>
+                        <label for="email"><input type="email" id="email" placeholder="Email"required></label>
+                        <label for="num"><input type="number" id="num" placeholder="Number" required></label>
+                        <!-- As the name suggests the select tag is used to select an option from some different options -->
                         <select name="car_name" id="car_name" aria-placeholder="select">
                             <option value="car-0">Car Name</option>
                             <option value="car-1">Abarth <img class="car-logo" src="https://www.izmostock.com/wp-content/uploads/2015/12/abarth.png" width="10px"></option>
@@ -45,6 +55,7 @@
                             <option value="car-2">Dodge</option>
                             <option value="car-2">Ferrari</option>
                         </select>
+                        <!-- An essential tag in HTML is a table tag throught which we can represent our data in a tabular form -->
                         <table>
                             <th>
                                 <td>
@@ -62,7 +73,7 @@
                             </th>
                         </table>
 
-                        <button type="submit">Rent Your Car</button>
+                        <button type="submit" class="subs">Rent Your Car</button>
                     </form>
                 </div>
                 <div class="attract">
@@ -73,8 +84,9 @@
             </div>
         </div>
         <footer>
+            <!-- A copyright makes the webpage yours so that no other person can steel your creation -->
             <div class="copyright">
-            <p class="copywrite">©️ Template by Abhishek</p>
+                <p class="copywrite">©️ Template by Abhishek</p>
             </div>
         </footer>
     </body>

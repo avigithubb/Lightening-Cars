@@ -208,7 +208,7 @@ a{
 }
 
 a:hover{
-    background-color: var(--backgournd-color3);
+    background-color: var(--background-color3);
 }
 
 .copyright{
